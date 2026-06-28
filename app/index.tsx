@@ -10,6 +10,7 @@ export default function Index() {
       }}
     >
       <Text>Hello from GitHub</Text>
+      <Text>This is from VS Code</Text>
     </View>
   );
 }
