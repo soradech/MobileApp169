@@ -3,7 +3,6 @@ export const mainStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FCC',
-    padding: 30,
   },
   title: {
     fontSize: 28,
