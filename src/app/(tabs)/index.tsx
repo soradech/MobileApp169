@@ -1,6 +1,6 @@
+import { mainStyles } from "@/src/styles/style";
 import { Link } from "expo-router";
 import { Button, Text, View } from "react-native";
-import { mainStyles } from "../styles/style";
 
 export default function Index() {
   return (
