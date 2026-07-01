@@ -4,8 +4,7 @@ import { Tabs } from 'expo-router';
 
 export default function TabLayout() {
   return (
-    <Tabs
-      screenOptions={{
+    <Tabs screenOptions={{
         headerShown: false,
         tabBarStyle: {
           backgroundColor: '#FFF',
@@ -15,8 +14,7 @@ export default function TabLayout() {
         tabBarInactiveTintColor: 'gray',
       }}
     >
-      <Tabs.Screen
-        name='index'
+      <Tabs.Screen name='index'
         options={{
           title: 'Home',
           tabBarIcon: ({ color, size }) => (
@@ -24,19 +22,17 @@ export default function TabLayout() {
           ),
         }}
       />
-      <Tabs.Screen
-        name='Education'
+      <Tabs.Screen name='Education'
         options={{
           title: 'Education',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name='book-education' size={size} color={color} />
+            <Ionicons name='aim' size={size} color={color} />
           ),
         }}
       />
-      <Tabs.Screen
-        name='Contact'
+      <Tabs.Screen name='Contact'
         options={{
-          title: 'All Meals',
+          title: 'Contact',
           tabBarIcon: ({ color, size }) => (
             <Ionicons name='contact-card' size={size} color={color} />
           ),
